@@ -1,14 +1,14 @@
-Utilerias para Venezuela
-==========================
+# Utilerias para Venezuela
 
 ## Sobre el contenido del Repositorio
 
-- zonas_postales.pdf - Fuente de donde se obtuvieron los Codigos Postales de Venezuela (IPOSTEL)
+- zonas_postales.pdf - Fuente de donde se obtuvieron los Códigos Postales de Venezuela (IPOSTEL)
 - zonas_postales.json - Parser del PDF de Ipostel en formato JSON
 - zonas_postales.csv - Parser del PDF de Ipostel en formato CSV
 - zonas_postales.sql - Parser del PDF de Ipostel en formato SQL
 
 La data contiene:
+
 - 35086 Zonas
 - 1132 Parroquias
 - 997 Ciudades
@@ -21,11 +21,12 @@ Creado por Kijam López B. Desarrollador de https://cuado.co/ y http://kijam.com
 
 ## Sobre el Uso y Licencia
 
-Todo el contenido publicado se puede editar, distribuir y utilizar solo bajo los terminos de la Licencia GPLv3 - Ver GPL.md
+Todo el contenido publicado se puede editar, distribuir y utilizar solo bajo los términos de la Licencia GPLv3 - Ver GPL.md
 
 ## Sobre zonas_postales.json
 
 El formato del JSON contiene la siguiente estructura:
+
 ```
 {
 	'[REGION]': {
