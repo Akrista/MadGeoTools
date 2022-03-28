@@ -1537,7 +1537,7 @@
             }
         },
         "MIRANDA": {
-            "iso_3166-2_ve":"VE-M",
+            "iso_3166-2_ve": "VE-M",
             "Chacao": {
                 "Chacao": {
                     "zonas": {
@@ -4740,7 +4740,7 @@
     },
     "ANDINA": {
         "BARINAS": {
-            "iso_3166-2_ve":"VE-E",
+            "iso_3166-2_ve": "VE-E",
             "Barinas": {
                 "Barinas": {
                     "zonas": {
@@ -6289,6 +6289,7 @@
             }
         },
         "TRUJILLO": {
+            "iso_3166-2_ve": "VE-T",
             "Trujillo": {
                 "Matr\u00edz": {
                     "zonas": {
@@ -8156,6 +8157,7 @@
             }
         },
         "M\u00c9RIDA": {
+            "iso_3166-2_ve": "VE-L",
             "Libertador": {
                 "Sagrario": {
                     "zonas": {
@@ -10388,6 +10390,7 @@
             }
         },
         "T\u00c1CHIRA": {
+            "iso_3166-2_ve": "VE-S",
             "San Crist\u00f3bal": {
                 "San Sebasti\u00e1n": {
                     "zonas": {
@@ -13530,6 +13533,7 @@
     },
     "CENTRAL": {
         "CARABOBO": {
+            "iso_3166-2_ve": "VE-G",
             "Bejuma": {
                 "Urbana Bejuma": {
                     "zonas": {
@@ -15611,6 +15615,7 @@
             }
         },
         "COJEDES": {
+            "iso_3166-2_ve": "VE-H",
             " Anzo\u00e1tegui": {
                 "Negro Primero": {
                     "zonas": {
@@ -16304,6 +16309,7 @@
             }
         },
         "LARA": {
+            "iso_3166-2_ve": "VE-K",
             "Iribarren": {
                 "Catedral": {
                     "zonas": {
@@ -18640,6 +18646,7 @@
             }
         },
         "PORTUGUESA": {
+            "iso_3166-2_ve": "VE-K",
             "Agua Blanca": {
                 "Coronel Mariano Peraza": {
                     "zonas": {
@@ -20409,6 +20416,7 @@
             }
         },
         "YARACUY": {
+            "iso_3166-2_ve": "VE-U",
             "Ar\u00edstides Bastidas": {
                 "San Isidro Labrador": {
                     "zonas": {
@@ -23555,6 +23563,7 @@
             }
         },
         "ARAGUA": {
+            "iso_3166-2_ve": "VE-D",
             "Girardot": {
                 "Urbana Las Delicias": {
                     "zonas": {
@@ -25364,6 +25373,7 @@
             }
         },
         "GU\u00c1RICO": {
+            "iso_3166-2_ve": "VE-J",
             "Juan Germ\u00e1n Roscio": {
                 "Capital San Juan de Los Morros": {
                     "zonas": {
@@ -27208,6 +27218,7 @@
     },
     "OCCIDENTAL": {
         "FALC\u00d3N": {
+            "iso_3166-2_ve": "VE-I",
             "Miranda": {
                 "San Antonio": {
                     "zonas": {
@@ -29407,6 +29418,7 @@
             }
         },
         "ZULIA": {
+            "iso_3166-2_ve": "VE-V",
             "Maracaibo": {
                 "Bol\u00edvar": {
                     "zonas": {
@@ -32877,6 +32889,7 @@
     },
     "ORIENTAL": {
         "ANZO\u00c1TEGUI": {
+            "iso_3166-2_ve": "VE-B",
             "Sim\u00f3n Bol\u00edvar": {
                 "El Carmen": {
                     "zonas": {
@@ -35853,6 +35866,7 @@
             }
         },
         "BOL\u00cdVAR": {
+            "iso_3166-2_ve": "VE-F",
             "Heres": {
                 "Agua Salada": {
                     "zonas": {
@@ -38138,6 +38152,7 @@
             }
         },
         "DELTA AMACURO": {
+            "iso_3166-2_ve": "VE-Y",
             "Antonio D\u00edaz": {
                 "Curiapo": {
                     "zonas": {
@@ -38489,6 +38504,7 @@
             }
         },
         "MONAGAS": {
+            "iso_3166-2_ve": "VE-N",
             "Acosta": {
                 "Capital Acosta": {
                     "zonas": {
@@ -39729,6 +39745,7 @@
             }
         },
         "NUEVA ESPARTA": {
+            "iso_3166-2_ve": "VE-O",
             "Antol\u00edn del Campo": {
                 "Los Barrancos de Fajardo": {
                     "zonas": {
@@ -40430,6 +40447,7 @@
             }
         },
         "SUCRE": {
+            "iso_3166-2_ve": "VE-R",
             "Sucre": {
                 "Altagracia": {
                     "zonas": {
@@ -42120,6 +42138,7 @@
     },
     "VARGAS": {
         "VARGAS": {
+            "iso_3166-2_ve": "VE-X",
             "Vargas": {
                 "La Guaira": {
                     "zonas": {

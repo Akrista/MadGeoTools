@@ -1042,40 +1042,42 @@ CREATE TABLE IF NOT EXISTS `estados` (
   `id_estado` int(11) NOT NULL AUTO_INCREMENT,
   `id_region` int(11) NOT NULL,
   `estado` varchar(32) COLLATE utf8_bin NOT NULL,
+  `iso_3166-2_ve` varchar(2) COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`id_estado`),
   KEY `id_region` (`id_region`),
   KEY `estado` (`estado`)
+  KEY `iso_3166-2_ve` (`iso_3166-2_ve`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=25 ;
 
 --
 -- Volcado de datos para la tabla `estados`
 --
 
-INSERT INTO `estados` (`id_estado`, `id_region`, `estado`) VALUES
-(1, 1, 'DISTRITO CAPITAL'),
-(2, 1, 'MIRANDA'),
-(3, 2, 'BARINAS'),
-(4, 2, 'TRUJILLO'),
-(5, 2, 'MÉRIDA'),
-(6, 2, 'TÁCHIRA'),
-(7, 3, 'CARABOBO'),
-(8, 3, 'COJEDES'),
-(9, 3, 'LARA'),
-(10, 3, 'PORTUGUESA'),
-(11, 3, 'YARACUY'),
-(12, 4, 'AMAZONAS'),
-(13, 4, 'APURE'),
-(14, 4, 'ARAGUA'),
-(15, 4, 'GUÁRICO'),
-(16, 5, 'FALCÓN'),
-(17, 5, 'ZULIA'),
-(18, 6, 'ANZOÁTEGUI'),
-(19, 6, 'BOLÍVAR'),
-(20, 6, 'DELTA AMACURO'),
-(21, 6, 'MONAGAS'),
-(22, 6, 'NUEVA ESPARTA'),
-(23, 6, 'SUCRE'),
-(24, 7, 'VARGAS');
+INSERT INTO `estados` (`id_estado`, `id_region`, `estado`,`iso_3166-2_ve`) VALUES
+(1, 1, 'DISTRITO CAPITAL', 'VE-A'),
+(2, 1, 'MIRANDA', 'VE-M'),
+(3, 2, 'BARINAS','VE-E'),
+(4, 2, 'TRUJILLO','VE-T'),
+(5, 2, 'MÉRIDA','VE-L'),
+(6, 2, 'TÁCHIRA','VE-S'),
+(7, 3, 'CARABOBO','VE-G'),
+(8, 3, 'COJEDES','VE-H'),
+(9, 3, 'LARA','VE-K'),
+(10, 3, 'PORTUGUESA','VE-P'),
+(11, 3, 'YARACUY','VE-U'),
+(12, 4, 'AMAZONAS','VE-Z'),
+(13, 4, 'APURE','VE-C'),
+(14, 4, 'ARAGUA','VE-D'),
+(15, 4, 'GUÁRICO','VE-J'),
+(16, 5, 'FALCÓN','VE-I'),
+(17, 5, 'ZULIA','VE-V'),
+(18, 6, 'ANZOÁTEGUI','VE-B'),
+(19, 6, 'BOLÍVAR','VE-F'),
+(20, 6, 'DELTA AMACURO','VE-Y'),
+(21, 6, 'MONAGAS','VE-N'),
+(22, 6, 'NUEVA ESPARTA','VE-O'),
+(23, 6, 'SUCRE','VE-R'),
+(24, 7, 'VARGAS','VE-X');
 
 -- --------------------------------------------------------
 
