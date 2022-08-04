@@ -57,25 +57,20 @@ Siguiendo la documentación de [ClicData](https://app.clicdata.com/help/docs/reg
   "features": [
     {
       "type": "Feature",
-	        "properties": {
+      "properties": {
         "iso_alpha3": "CRI",
         "name": "Costa Rica",
         "id": "CR",
         "cartodb_id": 4,
         "created_at": "2014-09-30T00:00:00Z",
         "updated_at": "2014-09-30T00:00:00Z"
-      }
-    },
+      },
       "geometry": {
         "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-83.682201, 10.935602]
-            ]
-          ]
-        ]
+        "coordinates": [[[[-83.682201, 10.935602]]]]
       }
+    }
+  ]
 }
 ```
 
@@ -85,19 +80,19 @@ El formato del JSON contiene la siguiente estructura:
 
 ```json
 {
-	'[REGION]': {
-		'[ESTADO]': {
-			'iso_3166_2':'[CODIGO ISO_3166-2]',
-			'[MUNICIPIO]': {
-				'[PARROQUIA]': {
-					'zonas': {
-						'[ZONA]': [CODIGO_POSTAL], ...
-					},
-					'ciudad': [CIUDAD],
-					'urbana': true|false
-				}, ...
-			}, ...
-		}, ...
-	}, ...
+  "REGION": {
+    "ESTADO": {
+      "iso_3166_2": "CODIGO ISO_3166-2",
+      "MUNICIPIO": {
+        "PARROQUIA": {
+          "zonas": {
+            "ZONA": "CODIGO_POSTAL"
+          },
+          "ciudad": "CIUDAD",
+          "urbana": "true|false"
+        }
+      }
+    }
+  }
 }
 ```
